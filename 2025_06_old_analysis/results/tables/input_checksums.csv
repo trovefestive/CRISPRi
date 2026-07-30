@@ -1,0 +1,7 @@
+expected_md5,basename,sample,file,actual_md5,matches_manifest
+2137ccf1fa5683f11258ad3bb432567d,sg_set_A_CKDL260013754-1A_23KG5MLT4_L3_1.fq.gz,A,/Volumes/Subash/CRISPRi/LIbrary_QC_Novogene/01.RawData/sg_set_A/sg_set_A_CKDL260013754-1A_23KG5MLT4_L3_1.fq.gz,2137ccf1fa5683f11258ad3bb432567d,TRUE
+050d231e46efa4572d4b7314a2343ba3,sg_set_A_CKDL260013754-1A_23KG5MLT4_L3_2.fq.gz,A,/Volumes/Subash/CRISPRi/LIbrary_QC_Novogene/01.RawData/sg_set_A/sg_set_A_CKDL260013754-1A_23KG5MLT4_L3_2.fq.gz,050d231e46efa4572d4b7314a2343ba3,TRUE
+317b2421b255efdc83fce82eeff9e192,sg_set_B_CKDL260013755-1A_23KG5MLT4_L3_1.fq.gz,B,/Volumes/Subash/CRISPRi/LIbrary_QC_Novogene/01.RawData/sg_set_B/sg_set_B_CKDL260013755-1A_23KG5MLT4_L3_1.fq.gz,317b2421b255efdc83fce82eeff9e192,TRUE
+ccf51c408cd98cd76f61665fe5de88f2,sg_set_B_CKDL260013755-1A_23KG5MLT4_L3_2.fq.gz,B,/Volumes/Subash/CRISPRi/LIbrary_QC_Novogene/01.RawData/sg_set_B/sg_set_B_CKDL260013755-1A_23KG5MLT4_L3_2.fq.gz,ccf51c408cd98cd76f61665fe5de88f2,TRUE
+,broadgpp-dolcetto-targets-seta.txt,A,/Volumes/Subash/CRISPRi/Library target genes/broadgpp-dolcetto-targets-seta.txt,a39ec15b22437f0d15091c8e94df5e39,
+,broadgpp-dolcetto-targets-setb.txt,B,/Volumes/Subash/CRISPRi/Library target genes/broadgpp-dolcetto-targets-setb.txt,61175e9608584b188b7cd7854c94644f,

@@ -1,0 +1,9 @@
+sample,metric,value,threshold,pass
+A,Exact mapping (%),79.6658940500187,>= 65,TRUE
+B,Exact mapping (%),81.1761217504201,>= 65,TRUE
+A,Mean reads per guide,1497.3050482033,>= 300,TRUE
+B,Mean reads per guide,1291.1286067601,>= 300,TRUE
+A,Zero-count guides (%),0.0403155127081507,<= 1,TRUE
+B,Zero-count guides (%),0.00350809492904878,<= 1,TRUE
+A,Gini of log2(count+1),0.0603229362029711,<= 0.1,TRUE
+B,Gini of log2(count+1),0.0623251762409607,<= 0.1,TRUE

@@ -1,0 +1,12 @@
+sample,category,reads,percent_total
+B,total_reads,90677568,100
+B,no_CACCG_prefix,1341051,1.47892254895941
+B,valid_20nt_insert,83071262,91.6117004814245
+B,invalid_base_20nt_insert,239515,0.26413919702831
+B,non20_insert_with_GTTT,4712856,5.19737803290004
+B,no_downstream_GTTT,1312884,1.44785973968777
+B,exact_reference,73608533,81.1761217504201
+B,nonreference_20nt,9462729,10.4355787310043
+B,one_mismatch_unique,5465331,6.0272139191029
+B,one_mismatch_ambiguous,3188,0.00351575375290171
+B,more_than_one_mismatch_or_other,3994210,4.40484905814854

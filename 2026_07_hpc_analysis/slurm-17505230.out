@@ -1,0 +1,405 @@
+/apps/software/standard/core/miniforge/26.3.2/bin/python3
+Python 3.13.13
+All required packages available
+========================================
+CRISPRi Library QC Analysis Pipeline
+Start time: Wed Jul 29 17:59:07 EDT 2026
+========================================
+
+Configuration:
+  Project Dir: /sfs/weka/scratch/uwy2ak/CRISPRi
+  Results Dir: /sfs/weka/scratch/uwy2ak/CRISPRi/results
+  Figures Dir: /sfs/weka/scratch/uwy2ak/CRISPRi/figures
+  Threads: 4
+
+Starting CRISPRi Library QC Analysis...
+Python: /apps/software/standard/core/miniforge/26.3.2/bin/python3
+Python version: Python 3.13.13
+
+############################################################
+# Running Full Analysis: SetA
+############################################################
+
+========================================
+Step 1: Extracting gRNA from SetA
+  FASTQ: /sfs/weka/scratch/uwy2ak/CRISPRi/LIbrary_QC_Novogene/01.RawData/sg_set_A/sg_set_A_CKDL260013754-1A_23KG5MLT4_L3_1.fq.gz
+  Output: /sfs/weka/scratch/uwy2ak/CRISPRi/results/SetA/SetA_grna_counts.txt
+  Min Quality: 20
+========================================
+Processing /sfs/weka/scratch/uwy2ak/CRISPRi/LIbrary_QC_Novogene/01.RawData/sg_set_A/sg_set_A_CKDL260013754-1A_23KG5MLT4_L3_1.fq.gz...
+Processed 1,000,000 reads, 715,613 valid (71.6%)
+Processed 3,000,000 reads, 2,200,538 valid (73.4%)
+Processed 5,000,000 reads, 3,708,666 valid (74.2%)
+Processed 6,000,000 reads, 4,459,915 valid (74.3%)
+Processed 8,000,000 reads, 5,992,992 valid (74.9%)
+Processed 9,000,000 reads, 6,762,041 valid (75.1%)
+Processed 11,000,000 reads, 8,312,640 valid (75.6%)
+Processed 12,000,000 reads, 9,085,087 valid (75.7%)
+Processed 13,000,000 reads, 9,845,975 valid (75.7%)
+Processed 14,000,000 reads, 10,573,357 valid (75.5%)
+Processed 16,000,000 reads, 12,095,333 valid (75.6%)
+Processed 17,000,000 reads, 12,863,492 valid (75.7%)
+Processed 18,000,000 reads, 13,634,190 valid (75.7%)
+Processed 19,000,000 reads, 14,401,241 valid (75.8%)
+Processed 21,000,000 reads, 15,940,300 valid (75.9%)
+Processed 22,000,000 reads, 16,713,680 valid (76.0%)
+Processed 23,000,000 reads, 17,493,944 valid (76.1%)
+Processed 24,000,000 reads, 18,265,983 valid (76.1%)
+Processed 25,000,000 reads, 19,020,841 valid (76.1%)
+Processed 26,000,000 reads, 19,764,455 valid (76.0%)
+Processed 28,000,000 reads, 21,189,168 valid (75.7%)
+Processed 29,000,000 reads, 21,923,682 valid (75.6%)
+Processed 30,000,000 reads, 22,678,383 valid (75.6%)
+Processed 31,000,000 reads, 23,435,657 valid (75.6%)
+Processed 32,000,000 reads, 24,192,245 valid (75.6%)
+Processed 33,000,000 reads, 24,950,293 valid (75.6%)
+Processed 35,000,000 reads, 26,485,805 valid (75.7%)
+Processed 36,000,000 reads, 27,254,986 valid (75.7%)
+Processed 37,000,000 reads, 28,031,470 valid (75.8%)
+Processed 38,000,000 reads, 28,810,504 valid (75.8%)
+Processed 39,000,000 reads, 29,582,112 valid (75.9%)
+Processed 40,000,000 reads, 30,336,392 valid (75.8%)
+Processed 41,000,000 reads, 31,053,521 valid (75.7%)
+Processed 42,000,000 reads, 31,818,956 valid (75.8%)
+Processed 43,000,000 reads, 32,588,578 valid (75.8%)
+Processed 44,000,000 reads, 33,359,585 valid (75.8%)
+Processed 45,000,000 reads, 34,139,630 valid (75.9%)
+Processed 46,000,000 reads, 34,896,961 valid (75.9%)
+Processed 47,000,000 reads, 35,670,467 valid (75.9%)
+Processed 49,000,000 reads, 37,227,313 valid (76.0%)
+Processed 50,000,000 reads, 38,007,325 valid (76.0%)
+Processed 51,000,000 reads, 38,784,697 valid (76.0%)
+Processed 52,000,000 reads, 39,550,158 valid (76.1%)
+Processed 56,000,000 reads, 42,404,716 valid (75.7%)
+Processed 58,000,000 reads, 43,926,621 valid (75.7%)
+Processed 59,000,000 reads, 44,687,018 valid (75.7%)
+Processed 60,000,000 reads, 45,451,070 valid (75.8%)
+Processed 61,000,000 reads, 46,219,117 valid (75.8%)
+Processed 62,000,000 reads, 46,986,253 valid (75.8%)
+Processed 63,000,000 reads, 47,757,225 valid (75.8%)
+Processed 64,000,000 reads, 48,529,761 valid (75.8%)
+Processed 65,000,000 reads, 49,290,981 valid (75.8%)
+Processed 67,000,000 reads, 50,774,897 valid (75.8%)
+Processed 68,000,000 reads, 51,475,308 valid (75.7%)
+Processed 69,000,000 reads, 52,189,657 valid (75.6%)
+Processed 70,000,000 reads, 52,921,573 valid (75.6%)
+Processed 71,000,000 reads, 53,673,793 valid (75.6%)
+Processed 72,000,000 reads, 54,414,719 valid (75.6%)
+Processed 73,000,000 reads, 55,154,303 valid (75.6%)
+Processed 74,000,000 reads, 55,899,796 valid (75.5%)
+Processed 76,000,000 reads, 57,384,146 valid (75.5%)
+Processed 77,000,000 reads, 58,141,212 valid (75.5%)
+Processed 78,000,000 reads, 58,913,109 valid (75.5%)
+Processed 79,000,000 reads, 59,677,460 valid (75.5%)
+Processed 80,000,000 reads, 60,426,032 valid (75.5%)
+Processed 81,000,000 reads, 60,975,958 valid (75.3%)
+Processed 83,000,000 reads, 62,306,274 valid (75.1%)
+Processed 84,000,000 reads, 63,055,946 valid (75.1%)
+Processed 87,000,000 reads, 65,350,424 valid (75.1%)
+Processed 88,000,000 reads, 66,118,481 valid (75.1%)
+Processed 89,000,000 reads, 66,884,638 valid (75.2%)
+Processed 90,000,000 reads, 67,660,816 valid (75.2%)
+Processed 91,000,000 reads, 68,428,988 valid (75.2%)
+Processed 92,000,000 reads, 69,182,784 valid (75.2%)
+Processed 94,000,000 reads, 70,601,982 valid (75.1%)
+Processed 95,000,000 reads, 71,308,555 valid (75.1%)
+Processed 96,000,000 reads, 72,026,925 valid (75.0%)
+Processed 97,000,000 reads, 72,772,018 valid (75.0%)
+Processed 98,000,000 reads, 73,483,790 valid (75.0%)
+Processed 99,000,000 reads, 74,216,371 valid (75.0%)
+Processed 101,000,000 reads, 75,696,143 valid (74.9%)
+Processed 102,000,000 reads, 76,454,846 valid (75.0%)
+Processed 103,000,000 reads, 77,207,018 valid (75.0%)
+Processed 105,000,000 reads, 78,749,861 valid (75.0%)
+Processed 106,000,000 reads, 79,516,983 valid (75.0%)
+
+Total reads: 107,224,370
+Valid gRNA reads: 80,411,815 (75.0%)
+Low quality reads: 18,091,334 (16.9%)
+Unique gRNAs: 1,057,139
+
+Results written to /sfs/weka/scratch/uwy2ak/CRISPRi/results/SetA/SetA_grna_counts.txt
+Extraction complete for SetA
+-rw------- 1 uwy2ak users 24M Jul 29 18:20 /sfs/weka/scratch/uwy2ak/CRISPRi/results/SetA/SetA_grna_counts.txt
+
+========================================
+Step 2: Mapping SetA to library
+  Counts: /sfs/weka/scratch/uwy2ak/CRISPRi/results/SetA/SetA_grna_counts.txt
+  Library: /sfs/weka/scratch/uwy2ak/CRISPRi/Library target genes/broadgpp-dolcetto-targets-seta.txt
+  Output: /sfs/weka/scratch/uwy2ak/CRISPRi/results/SetA/SetA_mapped_counts.txt
+========================================
+Loading library reference...
+  Library size: 57,050 guides
+
+Loading gRNA counts...
+  Unique gRNAs in sample: 1,057,139
+  Total reads: 80,411,815
+
+Mapping to library...
+  Mapped to library: 57,050
+  Outside library: 1,000,116
+
+Calculating metrics...
+
+==================================================
+LIBRARY REPRESENTATION METRICS
+==================================================
+Total reads:                      80,411,815
+Library size:                         57,050
+Guides detected:                      57,023 (100.0%)
+Missing guides:                           27
+Reads mapping to library:         71,797,665 (89.3%)
+Expected count (even dist):           1409.5
+Mean count:                           1259.1
+Median count:                         1130.0
+Std dev:                               799.6
+Mean log₂ fold-change:                 -0.52
+Skew ratio (top/bottom 10%):           14.01
+Gini coefficient:                      0.349
+==================================================
+
+Mapped counts written to /sfs/weka/scratch/uwy2ak/CRISPRi/results/SetA/SetA_mapped_counts.txt
+Metrics written to /sfs/weka/scratch/uwy2ak/CRISPRi/results/SetA/SetA_metrics.txt
+Mapping complete for SetA
+Metrics:
+total_reads	80411815
+library_size	57050
+reads_in_library	71797665
+reads_outside_library	8614150
+pct_in_library	89.28745732203657
+guides_detected	57023
+coverage_pct	99.95267309377739
+missing_guides	27
+mean_count	1259.1000999596654
+median_count	1130.0
+std_count	799.5835626599952
+expected_count	1409.4971954425941
+mean_log2fc	-0.5214792203379395
+std_log2fc	1.1513038654005938
+skew_ratio	14.011414079497767
+gini	0.3485630476595567
+zero_count_guides	27
+
+========================================
+Step 3: Generating visualizations for SetA
+  Input: /sfs/weka/scratch/uwy2ak/CRISPRi/results/SetA/SetA_mapped_counts.txt
+  Output: /sfs/weka/scratch/uwy2ak/CRISPRi/figures/SetA
+========================================
+Loading mapped counts from /sfs/weka/scratch/uwy2ak/CRISPRi/results/SetA/SetA_mapped_counts.txt...
+
+Generating plots for SetA...
+Distribution plot saved to /sfs/weka/scratch/uwy2ak/CRISPRi/figures/SetA/SetA_distribution.png
+Lorenz curve saved to /sfs/weka/scratch/uwy2ak/CRISPRi/figures/SetA/SetA_lorenz.png
+Rank-abundance plot saved to /sfs/weka/scratch/uwy2ak/CRISPRi/figures/SetA/SetA_rank_abundance.png
+Gene coverage plot saved to /sfs/weka/scratch/uwy2ak/CRISPRi/figures/SetA/SetA_gene_coverage.png
+
+All plots generated successfully!
+Visualizations complete for SetA
+-rw------- 1 uwy2ak users 172K Jul 29 18:21 /sfs/weka/scratch/uwy2ak/CRISPRi/figures/SetA/SetA_distribution.png
+-rw------- 1 uwy2ak users 346K Jul 29 18:21 /sfs/weka/scratch/uwy2ak/CRISPRi/figures/SetA/SetA_gene_coverage.png
+-rw------- 1 uwy2ak users 207K Jul 29 18:21 /sfs/weka/scratch/uwy2ak/CRISPRi/figures/SetA/SetA_lorenz.png
+-rw------- 1 uwy2ak users 121K Jul 29 18:21 /sfs/weka/scratch/uwy2ak/CRISPRi/figures/SetA/SetA_rank_abundance.png
+
+############################################################
+# SetA Analysis COMPLETE
+############################################################
+
+############################################################
+# Running Full Analysis: SetB
+############################################################
+
+========================================
+Step 1: Extracting gRNA from SetB
+  FASTQ: /sfs/weka/scratch/uwy2ak/CRISPRi/LIbrary_QC_Novogene/01.RawData/sg_set_B/sg_set_B_CKDL260013755-1A_23KG5MLT4_L3_1.fq.gz
+  Output: /sfs/weka/scratch/uwy2ak/CRISPRi/results/SetB/SetB_grna_counts.txt
+  Min Quality: 20
+========================================
+Processing /sfs/weka/scratch/uwy2ak/CRISPRi/LIbrary_QC_Novogene/01.RawData/sg_set_B/sg_set_B_CKDL260013755-1A_23KG5MLT4_L3_1.fq.gz...
+Processed 2,000,000 reads, 1,432,099 valid (71.6%)
+Processed 4,000,000 reads, 2,928,090 valid (73.2%)
+Processed 5,000,000 reads, 3,669,044 valid (73.4%)
+Processed 6,000,000 reads, 4,419,524 valid (73.7%)
+Processed 7,000,000 reads, 5,185,272 valid (74.1%)
+Processed 8,000,000 reads, 5,948,393 valid (74.4%)
+Processed 10,000,000 reads, 7,489,564 valid (74.9%)
+Processed 11,000,000 reads, 8,250,767 valid (75.0%)
+Processed 12,000,000 reads, 8,971,875 valid (74.8%)
+Processed 14,000,000 reads, 10,492,123 valid (74.9%)
+Processed 15,000,000 reads, 11,258,453 valid (75.1%)
+Processed 17,000,000 reads, 12,785,411 valid (75.2%)
+Processed 18,000,000 reads, 13,549,765 valid (75.3%)
+Processed 19,000,000 reads, 14,319,144 valid (75.4%)
+Processed 20,000,000 reads, 15,093,961 valid (75.5%)
+Processed 21,000,000 reads, 15,850,299 valid (75.5%)
+Processed 22,000,000 reads, 16,583,205 valid (75.4%)
+Processed 23,000,000 reads, 17,275,198 valid (75.1%)
+Processed 24,000,000 reads, 17,982,891 valid (74.9%)
+Processed 25,000,000 reads, 18,713,818 valid (74.9%)
+Processed 26,000,000 reads, 19,463,257 valid (74.9%)
+Processed 27,000,000 reads, 20,212,004 valid (74.9%)
+Processed 28,000,000 reads, 20,959,800 valid (74.9%)
+Processed 29,000,000 reads, 21,720,034 valid (74.9%)
+Processed 30,000,000 reads, 22,481,777 valid (74.9%)
+Processed 31,000,000 reads, 23,247,175 valid (75.0%)
+Processed 32,000,000 reads, 24,023,310 valid (75.1%)
+Processed 33,000,000 reads, 24,789,663 valid (75.1%)
+Processed 34,000,000 reads, 25,531,751 valid (75.1%)
+Processed 35,000,000 reads, 26,252,773 valid (75.0%)
+Processed 36,000,000 reads, 27,018,089 valid (75.1%)
+Processed 37,000,000 reads, 27,785,416 valid (75.1%)
+Processed 38,000,000 reads, 28,557,535 valid (75.2%)
+Processed 39,000,000 reads, 29,328,178 valid (75.2%)
+Processed 40,000,000 reads, 30,084,045 valid (75.2%)
+Processed 41,000,000 reads, 30,856,690 valid (75.3%)
+Processed 42,000,000 reads, 31,633,439 valid (75.3%)
+Processed 43,000,000 reads, 32,409,059 valid (75.4%)
+Processed 44,000,000 reads, 33,170,964 valid (75.4%)
+Processed 45,000,000 reads, 33,915,731 valid (75.4%)
+Processed 46,000,000 reads, 34,616,086 valid (75.3%)
+Processed 47,000,000 reads, 35,353,782 valid (75.2%)
+Processed 48,000,000 reads, 36,014,553 valid (75.0%)
+Processed 49,000,000 reads, 36,770,710 valid (75.0%)
+Processed 50,000,000 reads, 37,529,084 valid (75.1%)
+Processed 51,000,000 reads, 38,287,284 valid (75.1%)
+Processed 52,000,000 reads, 39,051,624 valid (75.1%)
+Processed 53,000,000 reads, 39,813,963 valid (75.1%)
+Processed 54,000,000 reads, 40,584,808 valid (75.2%)
+Processed 56,000,000 reads, 42,079,499 valid (75.1%)
+Processed 57,000,000 reads, 42,802,326 valid (75.1%)
+Processed 58,000,000 reads, 43,494,123 valid (75.0%)
+Processed 60,000,000 reads, 44,946,005 valid (74.9%)
+Processed 61,000,000 reads, 45,680,523 valid (74.9%)
+Processed 62,000,000 reads, 46,410,381 valid (74.9%)
+Processed 63,000,000 reads, 47,150,783 valid (74.8%)
+Processed 64,000,000 reads, 47,907,751 valid (74.9%)
+Processed 66,000,000 reads, 49,383,971 valid (74.8%)
+Processed 67,000,000 reads, 50,141,176 valid (74.8%)
+Processed 69,000,000 reads, 51,459,459 valid (74.6%)
+Processed 70,000,000 reads, 52,053,954 valid (74.4%)
+Processed 71,000,000 reads, 52,807,717 valid (74.4%)
+Processed 72,000,000 reads, 53,558,074 valid (74.4%)
+Processed 73,000,000 reads, 54,318,850 valid (74.4%)
+Processed 75,000,000 reads, 55,840,937 valid (74.5%)
+Processed 76,000,000 reads, 56,606,925 valid (74.5%)
+Processed 77,000,000 reads, 57,372,237 valid (74.5%)
+Processed 78,000,000 reads, 58,115,941 valid (74.5%)
+Processed 79,000,000 reads, 58,833,481 valid (74.5%)
+Processed 81,000,000 reads, 60,205,968 valid (74.3%)
+Processed 82,000,000 reads, 60,933,525 valid (74.3%)
+Processed 84,000,000 reads, 62,359,792 valid (74.2%)
+Processed 85,000,000 reads, 63,081,569 valid (74.2%)
+Processed 87,000,000 reads, 64,584,133 valid (74.2%)
+Processed 88,000,000 reads, 65,343,983 valid (74.3%)
+Processed 90,000,000 reads, 66,867,170 valid (74.3%)
+
+Total reads: 90,677,568
+Valid gRNA reads: 67,346,721 (74.3%)
+Low quality reads: 16,449,329 (18.1%)
+Unique gRNAs: 1,121,664
+
+Results written to /sfs/weka/scratch/uwy2ak/CRISPRi/results/SetB/SetB_grna_counts.txt
+Extraction complete for SetB
+-rw------- 1 uwy2ak users 25M Jul 29 18:39 /sfs/weka/scratch/uwy2ak/CRISPRi/results/SetB/SetB_grna_counts.txt
+
+========================================
+Step 2: Mapping SetB to library
+  Counts: /sfs/weka/scratch/uwy2ak/CRISPRi/results/SetB/SetB_grna_counts.txt
+  Library: /sfs/weka/scratch/uwy2ak/CRISPRi/Library target genes/broadgpp-dolcetto-targets-setb.txt
+  Output: /sfs/weka/scratch/uwy2ak/CRISPRi/results/SetB/SetB_mapped_counts.txt
+========================================
+Loading library reference...
+  Library size: 57,011 guides
+
+Loading gRNA counts...
+  Unique gRNAs in sample: 1,121,664
+  Total reads: 67,346,721
+
+Mapping to library...
+  Mapped to library: 57,011
+  Outside library: 1,064,668
+
+Calculating metrics...
+
+==================================================
+LIBRARY REPRESENTATION METRICS
+==================================================
+Total reads:                      67,346,721
+Library size:                         57,011
+Guides detected:                      56,996 (100.0%)
+Missing guides:                           15
+Reads mapping to library:         60,874,448 (90.4%)
+Expected count (even dist):           1181.3
+Mean count:                           1068.0
+Median count:                          980.0
+Std dev:                               662.8
+Mean log₂ fold-change:                 -0.51
+Skew ratio (top/bottom 10%):           14.96
+Gini coefficient:                      0.344
+==================================================
+
+Mapped counts written to /sfs/weka/scratch/uwy2ak/CRISPRi/results/SetB/SetB_mapped_counts.txt
+Metrics written to /sfs/weka/scratch/uwy2ak/CRISPRi/results/SetB/SetB_metrics.txt
+Mapping complete for SetB
+Metrics:
+total_reads	67346721
+library_size	57011
+reads_in_library	60874448
+reads_outside_library	6472273
+pct_in_library	90.38962416596348
+guides_detected	56996
+coverage_pct	99.97368928803213
+missing_guides	15
+mean_count	1068.0477226472033
+median_count	980.0
+std_count	662.8362302253985
+expected_count	1181.293452140815
+mean_log2fc	-0.5146214851626124
+std_log2fc	1.1997795539520302
+skew_ratio	14.961475555613747
+gini	0.3440478934005702
+zero_count_guides	15
+
+========================================
+Step 3: Generating visualizations for SetB
+  Input: /sfs/weka/scratch/uwy2ak/CRISPRi/results/SetB/SetB_mapped_counts.txt
+  Output: /sfs/weka/scratch/uwy2ak/CRISPRi/figures/SetB
+========================================
+Loading mapped counts from /sfs/weka/scratch/uwy2ak/CRISPRi/results/SetB/SetB_mapped_counts.txt...
+
+Generating plots for SetB...
+Distribution plot saved to /sfs/weka/scratch/uwy2ak/CRISPRi/figures/SetB/SetB_distribution.png
+Lorenz curve saved to /sfs/weka/scratch/uwy2ak/CRISPRi/figures/SetB/SetB_lorenz.png
+Rank-abundance plot saved to /sfs/weka/scratch/uwy2ak/CRISPRi/figures/SetB/SetB_rank_abundance.png
+Gene coverage plot saved to /sfs/weka/scratch/uwy2ak/CRISPRi/figures/SetB/SetB_gene_coverage.png
+
+All plots generated successfully!
+Visualizations complete for SetB
+-rw------- 1 uwy2ak users 170K Jul 29 18:40 /sfs/weka/scratch/uwy2ak/CRISPRi/figures/SetB/SetB_distribution.png
+-rw------- 1 uwy2ak users 338K Jul 29 18:40 /sfs/weka/scratch/uwy2ak/CRISPRi/figures/SetB/SetB_gene_coverage.png
+-rw------- 1 uwy2ak users 206K Jul 29 18:40 /sfs/weka/scratch/uwy2ak/CRISPRi/figures/SetB/SetB_lorenz.png
+-rw------- 1 uwy2ak users 121K Jul 29 18:40 /sfs/weka/scratch/uwy2ak/CRISPRi/figures/SetB/SetB_rank_abundance.png
+
+############################################################
+# SetB Analysis COMPLETE
+############################################################
+
+========================================
+Generating Summary Report
+========================================
+
+========================================
+CRISPRi Library QC Analysis COMPLETE!
+========================================
+
+End time: Wed Jul 29 18:40:38 EDT 2026
+
+Results Summary:
+  Set A Results: /sfs/weka/scratch/uwy2ak/CRISPRi/results/SetA/
+  Set B Results: /sfs/weka/scratch/uwy2ak/CRISPRi/results/SetB/
+  Set A Figures: /sfs/weka/scratch/uwy2ak/CRISPRi/figures/SetA/
+  Set B Figures: /sfs/weka/scratch/uwy2ak/CRISPRi/figures/SetB/
+  Summary Report: /sfs/weka/scratch/uwy2ak/CRISPRi/results/analysis_summary.txt
+
+To check results:
+  cat /sfs/weka/scratch/uwy2ak/CRISPRi/results/analysis_summary.txt
+

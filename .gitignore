@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+
+# Large data files
+*.fq.gz
+*.fastq.gz
+
+# R binary objects
+*.rds
+
+# Large count files (>20MB)
+*_mapped_counts.txt
+*_grna_counts.txt
+
+# Python
+__pycache__/
+*.pyc
+
+# Claude settings
+.claude/
+
+# Nested git repos
+2026_07_hpc_analysis/.git/

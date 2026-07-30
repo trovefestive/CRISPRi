@@ -1,0 +1,17 @@
+total_reads	67346721
+library_size	57011
+reads_in_library	60874448
+reads_outside_library	6472273
+pct_in_library	90.38962416596348
+guides_detected	56996
+coverage_pct	99.97368928803213
+missing_guides	15
+mean_count	1068.0477226472033
+median_count	980.0
+std_count	662.8362302253985
+expected_count	1181.293452140815
+mean_log2fc	-0.5146214851626124
+std_log2fc	1.1997795539520302
+skew_ratio	14.961475555613747
+gini	0.3440478934005702
+zero_count_guides	15
